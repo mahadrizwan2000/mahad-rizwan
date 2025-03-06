@@ -72,7 +72,6 @@
   },
   "order": [
     "custom-gift-page",
-    "image_banner",
     "featured_collection"
   ]
 }
