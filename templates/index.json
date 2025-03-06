@@ -1,17 +1,19 @@
 {
   "sections": {
+    "custom-gift-page": {
+      "type": "custom-gift-page"
+    },
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
+      "blocks": [
+        {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h0"
+            "heading": "Welcome to our store"
           }
         },
-        "button": {
-          "type": "buttons",
+        {
+          "type": "button",
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify://collections/all",
@@ -21,7 +23,7 @@
             "button_style_secondary_2": false
           }
         }
-      },
+      ],
       "block_order": [
         "heading",
         "button"
@@ -69,6 +71,7 @@
     }
   },
   "order": [
+    "custom-gift-page",
     "image_banner",
     "featured_collection"
   ]
